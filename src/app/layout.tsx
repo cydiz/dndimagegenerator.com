@@ -10,11 +10,11 @@ import { AuthProvider } from "@/contexts/AuthContext";
 export const metadata: Metadata = {
   metadataBase: new URL("https://dndimagegenerator.com"),
   title: {
-    default: "Hotpot AI - Create stunning images with AI",
+    default: "Hotpot AI - Free DnD Image Generator & AI Art Creator",
     template: "%s | Hotpot AI",
   },
   description:
-    "Visualize ideas with AI Image Generator, reimagine yourself with AI Headshots, or automate editing with powerful AI photo tools. Free AI image generation, logo creation, and photo editing.",
+    "Free DnD image generator powered by AI. Create stunning Dungeons & Dragons scenes, characters, and fantasy art. Visualize ideas with AI Image Generator, reimagine yourself with AI Headshots, or automate editing with powerful AI photo tools. Free AI image generation, logo creation, and photo editing.",
   keywords: [
     "AI image generator",
     "AI art generator",
@@ -24,6 +24,16 @@ export const metadata: Metadata = {
     "logo generator",
     "background remover",
     "photo upscaler",
+    "dnd image generator",
+    "dnd image creator",
+    "dnd art generator",
+    "dnd scene generator",
+    "dungeons and dragons image generator",
+    "d&d image generator",
+    "free dnd image generator",
+    "ai dnd image generator",
+    "tabletop rpg image generator",
+    "rpg image generator",
     "DnD generator",
     "AI writing",
     "free AI tools",
@@ -41,23 +51,23 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: "https://dndimagegenerator.com",
     siteName: "Hotpot AI",
-    title: "Hotpot AI - Create stunning images with AI",
+    title: "Hotpot AI - Free DnD Image Generator & AI Art Creator",
     description:
-      "Visualize ideas with AI Image Generator, reimagine yourself with AI Headshots, or automate editing with powerful AI photo tools.",
+      "Free DnD image generator powered by AI. Create stunning Dungeons & Dragons scenes, characters, and fantasy art. Visualize ideas with AI Image Generator, reimagine yourself with AI Headshots, or automate editing with powerful AI photo tools.",
     images: [
       {
         url: "/images/logos/brandmark.svg",
         width: 1200,
         height: 630,
-        alt: "Hotpot AI - AI Image Generator",
+        alt: "DnD Image Generator - Free AI D&D Scene Creator",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hotpot AI - Create stunning images with AI",
+    title: "Hotpot AI - Free DnD Image Generator & AI Art Creator",
     description:
-      "Visualize ideas with AI Image Generator, reimagine yourself with AI Headshots, or automate editing with powerful AI photo tools.",
+      "Free DnD image generator powered by AI. Create stunning Dungeons & Dragons scenes, characters, and fantasy art. Free AI image generation tools.",
     images: ["/images/logos/brandmark.svg"],
     creator: "@hotpotai",
   },

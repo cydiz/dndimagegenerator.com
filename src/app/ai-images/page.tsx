@@ -6,6 +6,7 @@ import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { imageMap } from "@/lib/imageMap";
+import { generateBreadcrumbList } from "@/lib/structured-data";
 
 const toolKeys = ["artGenerator", "aiLogos", "aiStockPhotos", "aiBackgrounds", "aiAnime"];
 
@@ -20,9 +21,20 @@ const toolHrefs: Record<string, string> = {
 export default function AiImagesPage() {
   const { t } = useLanguage();
 
+  const baseUrl = "https://dndimagegenerator.com";
+  const breadcrumbJsonLd = generateBreadcrumbList([
+    { name: "Home", url: baseUrl },
+    { name: "AI Images", url: `${baseUrl}/ai-images` },
+  ]);
+
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-900">
-      <Header />
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
+      />
+      <div className="min-h-screen bg-slate-50 text-slate-900">
+        <Header />
       <main className="border-b border-slate-200 bg-gradient-to-b from-sky-50 via-white to-white">
         <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 sm:py-14 lg:px-8">
           <div className="mb-8 space-y-3">
@@ -52,7 +64,7 @@ export default function AiImagesPage() {
                   <div className="mb-3 relative aspect-video overflow-hidden rounded-2xl">
                     <Image
                       src={imageMap[key] || "/file.svg"}
-                      alt={t(`aiImages.tools.${key}.title`)}
+                      alt={`${t(`aiImages.tools.${key}.title`)} - AI image generator tool`}
                       fill
                       className="object-cover"
                     />
@@ -89,6 +101,7 @@ export default function AiImagesPage() {
         </div>
       </main>
       <Footer />
-    </div>
+      </div>
+    </>
   );
 }

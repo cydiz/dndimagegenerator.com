@@ -6,9 +6,9 @@ import { PricingSection } from "@/components/PricingSection";
 import { Footer } from "@/components/Footer";
 
 export const metadata: Metadata = {
-  title: "Hotpot AI - Create stunning images with AI",
+  title: "Hotpot AI - Free DnD Image Generator & AI Art Creator",
   description:
-    "Create stunning images, graphics, and content with AI. Visualize ideas with AI Image Generator, reimagine yourself with AI Headshots, or automate editing with powerful AI photo tools. Free or $1 per graphic.",
+    "Free DnD image generator powered by AI. Create stunning Dungeons & Dragons scenes, characters, and fantasy art. Generate images with AI Image Generator, reimagine yourself with AI Headshots, or automate editing with powerful AI photo tools. Free or $1 per graphic.",
   keywords: [
     "AI image generator",
     "AI art generator",
@@ -19,11 +19,21 @@ export const metadata: Metadata = {
     "logo generator",
     "background remover",
     "photo upscaler",
+    "dnd image generator",
+    "dnd image creator",
+    "dnd art generator",
+    "dnd scene generator",
+    "dungeons and dragons image generator",
+    "d&d image generator",
+    "free dnd image generator",
+    "ai dnd image generator",
+    "tabletop rpg image generator",
+    "rpg image generator",
   ],
   openGraph: {
-    title: "Hotpot AI - Create stunning images with AI",
+    title: "Hotpot AI - Free DnD Image Generator & AI Art Creator",
     description:
-      "Create stunning images, graphics, and content with AI. Free or $1 per graphic.",
+      "Free DnD image generator powered by AI. Create stunning Dungeons & Dragons scenes, characters, and fantasy art. Free or $1 per graphic.",
     url: "https://dndimagegenerator.com",
     siteName: "Hotpot AI",
     images: [
@@ -31,7 +41,7 @@ export const metadata: Metadata = {
         url: "/images/logos/brandmark.svg",
         width: 1200,
         height: 630,
-        alt: "Hotpot AI",
+        alt: "DnD Image Generator - Free AI D&D Scene Creator",
       },
     ],
     locale: "en_US",
@@ -39,9 +49,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Hotpot AI - Create stunning images with AI",
+    title: "Hotpot AI - Free DnD Image Generator & AI Art Creator",
     description:
-      "Create stunning images, graphics, and content with AI. Free or $1 per graphic.",
+      "Free DnD image generator powered by AI. Create stunning Dungeons & Dragons scenes, characters, and fantasy art. Free or $1 per graphic.",
   },
 };
 
@@ -51,7 +61,7 @@ export default function Home() {
     "@type": "WebApplication",
     name: "Hotpot AI",
     description:
-      "Create stunning images, graphics, and content with AI. Visualize ideas with AI Image Generator, reimagine yourself with AI Headshots, or automate editing with powerful AI photo tools.",
+      "Create stunning images, graphics, and content with AI. Visualize ideas with AI Image Generator, reimagine yourself with AI Headshots, or automate editing with powerful AI photo tools. Free DnD image generator for Dungeons & Dragons scenes, characters, and fantasy art.",
     url: "https://dndimagegenerator.com",
     applicationCategory: "DesignApplication",
     operatingSystem: "Web",
@@ -65,6 +75,23 @@ export default function Home() {
       ratingValue: "4.8",
       ratingCount: "1000",
     },
+    featureList: [
+      "AI image generator",
+      "DnD image generator",
+      "D&D scene generator",
+      "Fantasy art generator",
+      "AI headshot generator",
+      "Tabletop RPG image creator",
+    ],
+    keywords: [
+      "dnd image generator",
+      "dnd image creator",
+      "dnd art generator",
+      "dungeons and dragons image generator",
+      "free dnd image generator",
+      "ai dnd image generator",
+      "tabletop rpg image generator",
+    ],
   };
 
   return (

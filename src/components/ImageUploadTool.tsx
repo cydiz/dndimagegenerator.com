@@ -74,7 +74,7 @@ export function ImageUploadTool({
             <div className="mt-4 rounded-2xl border border-slate-200 bg-slate-50 p-4">
               <img
                 src={preview}
-                alt="Preview"
+                alt="AI generated image preview"
                 className="w-full rounded-xl object-cover"
               />
             </div>

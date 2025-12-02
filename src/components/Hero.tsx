@@ -71,7 +71,7 @@ export function Hero() {
               <div className="relative aspect-[4/3] overflow-hidden rounded-2xl border border-slate-200 bg-slate-900/90">
                 <Image
                   src="/images/site/ai/image_generator/art_maker/teaser_400.jpg"
-                  alt="AI generated fantasy landscape"
+                  alt="DnD image generator - AI generated fantasy landscape for Dungeons & Dragons"
                   fill
                   className="object-cover"
                 />

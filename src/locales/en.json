@@ -207,9 +207,9 @@
   },
   "dndGenerator": {
     "badge": "AI DnD Generator",
-    "title": "Design epic DnD scenes with",
-    "titleHighlight": "AI prompts",
-    "description": "Choose your world, scene type, and art style. We build a rich prompt you can send to your favorite image model (Stable Diffusion, DALL·E, Hotpot, etc.).",
+    "title": "Free DnD Image Generator - Create Epic D&D Scenes",
+    "titleHighlight": "AI-Powered",
+    "description": "Free DnD image generator powered by AI. Create epic Dungeons & Dragons scenes, characters, battle maps, and fantasy art. Generate D&D images for your campaigns with customizable prompts. Perfect for tabletop RPGs, D&D tokens, and campaign visuals. Works with Stable Diffusion, DALL·E, Midjourney, and other AI image models.",
     "sceneSettings": "Scene settings",
     "world": "World",
     "sceneType": "Scene Type",

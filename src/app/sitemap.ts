@@ -113,12 +113,32 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...appContentPages,
   ];
 
+  // Define high-priority pages
+  const highPriorityPages = [
+    "",
+    "/dnd-generator",
+    "/art-generator",
+    "/ai-images",
+    "/ai-headshots",
+    "/ai-editing",
+    "/ai-writing",
+    "/game-tools",
+  ];
+
   return allPages.map((path) => ({
     url: `${baseUrl}${path}`,
     lastModified: new Date(),
     changeFrequency:
       path === "" ? "daily" : path.startsWith("/blog") ? "weekly" : "monthly",
-    priority: path === "" ? 1.0 : path.startsWith("/ai-") ? 0.9 : 0.8,
+    priority: highPriorityPages.includes(path)
+      ? path === ""
+        ? 1.0
+        : path === "/dnd-generator"
+          ? 0.95
+          : 0.9
+      : path.startsWith("/ai-") || path.startsWith("/templates")
+        ? 0.85
+        : 0.8,
   }));
 }
 

@@ -100,7 +100,7 @@ export function Header() {
           <div className="relative h-8 w-8">
             <Image
               src="/images/logos/brandmark.svg"
-              alt="Hotpot.ai"
+              alt="Hotpot AI - Free DnD Image Generator & AI Art Creator"
               fill
               className="object-contain"
               onError={(e) => {
@@ -117,7 +117,7 @@ export function Header() {
           <div className="relative h-6 w-24 hidden sm:block">
             <Image
               src="/images/logos/wordmark.svg"
-              alt="Hotpot"
+              alt="Hotpot AI Logo"
               fill
               className="object-contain"
               onError={(e) => {

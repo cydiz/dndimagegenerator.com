@@ -208,10 +208,9 @@
   },
   "dndGenerator": {
     "badge": "AI DnD 生成器",
-    "title": "使用",
-    "titleHighlight": "AI 提示词",
-    "titleSuffix": "设计史诗级 DnD 场景",
-    "description": "选择您的世界、场景类型和艺术风格。我们构建一个丰富的提示词，您可以发送到您喜欢的图像模型（Stable Diffusion、DALL·E、Hotpot 等）。",
+    "title": "免费 DnD 图像生成器 - 创建史诗级 D&D 场景",
+    "titleHighlight": "AI 驱动",
+    "description": "免费的 AI 驱动的 DnD 图像生成器。创建史诗级的《龙与地下城》场景、角色、战斗地图和奇幻艺术。为您的战役生成 D&D 图像，支持自定义提示词。非常适合桌面 RPG、D&D 令牌和战役视觉效果。兼容 Stable Diffusion、DALL·E、Midjourney 和其他 AI 图像模型。",
     "sceneSettings": "场景设置",
     "world": "世界",
     "sceneType": "场景类型",

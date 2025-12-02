@@ -69,7 +69,7 @@ export function TemplateEditor({
           </div>
           {image && (
             <div className="rounded-xl border border-slate-200 bg-slate-50 p-2">
-              <img src={image} alt="Preview" className="w-full rounded-lg" />
+              <img src={image} alt="Template preview" className="w-full rounded-lg" />
             </div>
           )}
           <div className="rounded-xl border border-slate-200 bg-slate-50 p-4">

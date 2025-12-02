@@ -8,5 +8,17 @@ Sitemap: https://dndimagegenerator.com/sitemap.xml
 # Disallow admin and API routes
 Disallow: /api/
 Disallow: /account
-Disallow: /login
+Disallow: /subscription/
+
+# Allow important pages for SEO
+Allow: /dnd-generator
+Allow: /art-generator
+Allow: /ai-images
+Allow: /ai-headshots
+Allow: /ai-editing
+Allow: /ai-writing
+Allow: /game-tools
+
+# Crawl-delay for respectful crawling
+Crawl-delay: 1
 
