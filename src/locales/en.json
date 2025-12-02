@@ -1,0 +1,274 @@
+{
+  "common": {
+    "signIn": "Sign in",
+    "startCreating": "Start creating",
+    "pricing": "Pricing",
+    "help": "Help",
+    "contact": "Contact",
+    "privacy": "Privacy",
+    "allRightsReserved": "All rights reserved",
+    "copyPrompt": "Copy prompt",
+    "copied": "Copied!",
+    "open": "Open",
+    "openTool": "Open tool",
+    "use": "Use",
+    "generate": "Generate",
+    "generating": "Generating...",
+    "popular": "Popular"
+  },
+  "auth": {
+    "loginTitle": "Welcome back",
+    "loginSubtitle": "Sign in to your account to continue",
+    "registerTitle": "Create an account",
+    "registerSubtitle": "Get started with Hotpot AI",
+    "email": "Email",
+    "emailPlaceholder": "you@example.com",
+    "password": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "passwordHint": "At least 6 characters",
+    "name": "Name",
+    "namePlaceholder": "Your name",
+    "optional": "Optional",
+    "login": "Sign in",
+    "register": "Sign up",
+    "logout": "Log out",
+    "noAccount": "Don't have an account?",
+    "haveAccount": "Already have an account?",
+    "processing": "Processing...",
+    "demoNote": "This is a demo authentication system. Data is stored in memory and will be lost on server restart."
+  },
+  "nav": {
+    "aiImages": "AI Images",
+    "aiHeadshots": "AI Headshots",
+    "aiEditing": "AI Editing",
+    "aiGame": "AI Game",
+    "aiWriting": "AI Writing",
+    "dndGenerator": "DnD Generator",
+    "pricing": "Pricing",
+    "submenu": {
+      "artGenerator": "Art Generator",
+      "artGeneratorPowerEditor": "Art Generator - Power Editor",
+      "aiCharacters": "AI Characters",
+      "aiLogos": "AI Logos",
+      "aiStockPhotos": "AI Stock Photos",
+      "aiBackgrounds": "AI Backgrounds",
+      "aiAnime": "AI Anime",
+      "generalHeadshot": "General Headshot",
+      "corporateHeadshot": "Corporate Headshot",
+      "lunarNewYearHeadshot": "Lunar New Year Headshot",
+      "avatar": "Avatar",
+      "cosplayHeadshot": "Cosplay Headshot",
+      "realEstateHeadshot": "Real Estate Headshot",
+      "medicalHeadshot": "Medical Headshot",
+      "xmasHeadshot": "Xmas Headshot",
+      "profilePictureEditor": "Profile Picture Editor",
+      "photoUpscaler": "Photo Upscaler",
+      "objectRemover": "Object Remover",
+      "backgroundRemover": "Background Remover",
+      "photoRestyler": "Photo Restyler",
+      "photoColorizer": "Photo Colorizer",
+      "photoRestorer": "Photo Restorer",
+      "faceEnhancer": "Face Enhancer",
+      "autoCrop": "Auto Crop",
+      "colorGenerator": "Color Generator",
+      "aiGameTools": "AI Game Tools",
+      "aiGameCharacters": "AI Game Characters",
+      "aiGameBackground": "AI Game Background",
+      "aiGameCopywriter": "AI Game Copywriter",
+      "aiGameLogo": "AI Game Logo",
+      "dndGenerator": "AI DnD Generator",
+      "freeGameAssets": "Free Game Assets",
+      "contentBrainstorming": "Content Brainstorming",
+      "artNftIdea": "Art & NFT Idea",
+      "copywriting": "Copywriting",
+      "songWriting": "Song Writing",
+      "bookWriting": "Book Writing",
+      "professionalWriting": "Professional Writing",
+      "productWriting": "Product Writing"
+    }
+  },
+  "home": {
+    "hero": {
+      "badge": "Spark creativity with AI",
+      "title": "Create stunning images, graphics, and content with",
+      "titleHighlight": "Hotpot AI",
+      "description": "Visualize ideas with the AI Image Generator, reimagine yourself with AI Headshots, or automate away tedious editing with powerful AI photo tools. Templates help anyone design professional graphics in minutes.",
+      "startFree": "Start for free",
+      "noLoginRequired": "no login required",
+      "viewTools": "View AI tools",
+      "pricingNote": "Designs are free or as low as $1 per graphic."
+    },
+    "categories": {
+      "aiImage": {
+        "title": "AI Image",
+        "subtitle": "Spark creativity with AI",
+        "description": "Turn text into art. Generate logos, stock photos, backgrounds, anime, and more with AI.",
+        "items": {
+          "artGenerator": "Art Generator",
+          "aiLogos": "AI Logos",
+          "aiStockPhotos": "AI Stock Photos",
+          "aiBackgrounds": "AI Backgrounds",
+          "aiAnime": "AI Anime"
+        }
+      },
+      "aiHeadshot": {
+        "title": "AI Headshot",
+        "subtitle": "Reimagine yourself with AI",
+        "description": "Create professional portraits for LinkedIn, resumes, social media, and more in any style.",
+        "items": {
+          "generalHeadshot": "General Headshot",
+          "corporateHeadshot": "Corporate Headshot",
+          "avatarCosplay": "Avatar & Cosplay",
+          "realEstateHeadshot": "Real Estate Headshot",
+          "medicalHeadshot": "Medical Headshot"
+        }
+      },
+      "aiEditing": {
+        "title": "AI Editing",
+        "subtitle": "Edit photos with AI",
+        "description": "Upscale, clean up, and enhance photos with one click. Remove objects, fix faces, and more.",
+        "items": {
+          "photoUpscaler": "Photo Upscaler",
+          "objectRemover": "Object Remover",
+          "backgroundRemover": "Background Remover",
+          "photoColorizer": "Photo Colorizer",
+          "photoRestyler": "Photo Restyler",
+          "photoRestorer": "Photo Restorer",
+          "faceEnhancer": "Face Enhancer"
+        }
+      },
+      "aiGame": {
+        "title": "AI Game",
+        "subtitle": "Create game content with AI",
+        "description": "Design game characters, backgrounds, and assets. Perfect for DnD, mobile games, and prototypes.",
+        "items": {
+          "aiGameTools": "AI Game Tools",
+          "aiGameCharacters": "AI Game Characters",
+          "aiGameBackground": "AI Game Background",
+          "aiGameLogo": "AI Game Logo",
+          "aiDndGenerator": "AI DnD Generator"
+        }
+      },
+      "aiWriting": {
+        "title": "AI Writing",
+        "subtitle": "Elevate writing with AI",
+        "description": "Brainstorm ideas, polish copy, and generate content for blogs, products, and books.",
+        "items": {
+          "contentBrainstorming": "Content Brainstorming",
+          "artNftIdea": "Art & NFT Idea",
+          "copywriting": "Copywriting",
+          "songWriting": "Song Writing",
+          "bookWriting": "Book Writing",
+          "professionalWriting": "Professional Writing",
+          "productWriting": "Product Writing"
+        }
+      }
+    },
+    "pricing": {
+      "title": "Simple pricing that scales with you",
+      "description": "Create for free, then pay only when you export high‑resolution designs or commercial assets.",
+      "price": "$1",
+      "perGraphic": "per premium graphic",
+      "volumeDiscounts": "Volume discounts available for teams and studios."
+    }
+  },
+  "aiImages": {
+    "badge": "AI Images",
+    "title": "All your",
+    "titleHighlight": "AI image tools",
+    "titleSuffix": "in one place",
+    "description": "Visualize any idea with the AI Art Generator, create logos, backgrounds, and stock photos, or explore anime styles. Start from simple text and get beautiful visuals in seconds.",
+    "connectToReal": "Connect to real generators",
+    "connectDescription": "Each card above can be wired to a dedicated page or external tool (for example, your own AI services or third‑party generators). For now, the buttons are placeholders.",
+    "tools": {
+      "artGenerator": {
+        "title": "Art Generator",
+        "description": "Turn text into art with AI. Explore styles from painterly to cyberpunk concept art."
+      },
+      "aiLogos": {
+        "title": "AI Logos",
+        "description": "Generate logo ideas in flat, detailed, hipster, black & white and more styles."
+      },
+      "aiStockPhotos": {
+        "title": "AI Stock Photos",
+        "description": "Create on‑brand stock photos without photoshoots. Great for marketing and product shots."
+      },
+      "aiBackgrounds": {
+        "title": "AI Backgrounds",
+        "description": "Design vivid backdrops for games, apps, and presentations in seconds."
+      },
+      "aiAnime": {
+        "title": "AI Anime",
+        "description": "Think in anime. Turn your ideas into stylized anime characters and scenes."
+      }
+    }
+  },
+  "dndGenerator": {
+    "badge": "AI DnD Generator",
+    "title": "Design epic DnD scenes with",
+    "titleHighlight": "AI prompts",
+    "description": "Choose your world, scene type, and art style. We build a rich prompt you can send to your favorite image model (Stable Diffusion, DALL·E, Hotpot, etc.).",
+    "sceneSettings": "Scene settings",
+    "world": "World",
+    "sceneType": "Scene Type",
+    "artStyle": "Art style",
+    "mood": "Mood",
+    "extraDetails": "Extra details",
+    "extraDetailsHint": "Describe characters, lighting, camera angle, magic effects, or anything else you want to see.",
+    "promptPreview": "Prompt preview",
+    "copyPasteHint": "Copy & paste into your image generator",
+    "historySamples": "History & samples",
+    "historyEmpty": "Copy a prompt to save it here. You can quickly restore a previous setup with one click.",
+    "samplePrompts": "Sample prompts",
+    "sample1": "Epic DnD battle on a floating island above a stormy sea, painterly style, dramatic lighting, 4k",
+    "sample2": "Cozy tavern interior, adventurers around a wooden table, warm lighting, detailed character designs, anime style",
+    "sample3": "Isometric dungeon map, torch-lit corridors, ancient runes, high contrast, game-ready asset",
+    "generateMock": "Generate mock images (API)",
+    "generatedPreviews": "Generated previews (mock)",
+    "generatedEmpty": "Click \"Generate mock images (API)\" to create preview cards. These are placeholders until you connect a real image generation API.",
+    "placeholderNote": "Placeholder preview – connect real image API later.",
+    "worlds": {
+      "forgottenRealms": "Forgotten Realms",
+      "homebrewWorld": "Homebrew World",
+      "eberron": "Eberron",
+      "ravenloft": "Ravenloft"
+    },
+    "sceneTypes": {
+      "dungeon": "Dungeon",
+      "tavern": "Tavern",
+      "cityStreet": "City Street",
+      "forestClearing": "Forest Clearing",
+      "battlefield": "Battlefield"
+    },
+    "styles": {
+      "realistic": "Realistic",
+      "painterly": "Painterly",
+      "pixelArt": "Pixel Art",
+      "anime": "Anime",
+      "isometricMap": "Isometric Map"
+    },
+    "moods": {
+      "mysterious": "Mysterious",
+      "epic": "Epic",
+      "cozy": "Cozy",
+      "dark": "Dark",
+      "whimsical": "Whimsical"
+    }
+  },
+  "footer": {
+    "copyright": "© {year} Hotpot (Clone Demo). All rights reserved.",
+    "disclaimer": "This project is a learning/demo clone inspired by Hotpot.ai, built with Next.js and Tailwind CSS. Please replace all images and brand assets with content that you own or have permission to use before any commercial deployment.",
+    "about": "About",
+    "jobs": "Jobs",
+    "resources": "Resources",
+    "gameTools": "AI Game Tools",
+    "aiAvatars": "AI Avatars",
+    "characterGenerator": "AI Character Generator",
+    "freeGameAssets": "Free Game Assets",
+    "appMarketingPack": "App Marketing Pack",
+    "templates": "Templates",
+    "blog": "Blog",
+    "allPosts": "All Posts"
+  }
+}
+

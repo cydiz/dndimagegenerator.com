@@ -1,0 +1,276 @@
+{
+  "common": {
+    "signIn": "登录",
+    "startCreating": "开始创作",
+    "pricing": "定价",
+    "help": "帮助",
+    "contact": "联系我们",
+    "privacy": "隐私",
+    "allRightsReserved": "保留所有权利",
+    "copyPrompt": "复制提示词",
+    "copied": "已复制！",
+    "open": "打开",
+    "openTool": "打开工具",
+    "use": "使用",
+    "generate": "生成",
+    "generating": "生成中...",
+    "popular": "热门"
+  },
+  "auth": {
+    "loginTitle": "欢迎回来",
+    "loginSubtitle": "登录您的账户以继续",
+    "registerTitle": "创建账户",
+    "registerSubtitle": "开始使用 Hotpot AI",
+    "email": "邮箱",
+    "emailPlaceholder": "you@example.com",
+    "password": "密码",
+    "passwordPlaceholder": "请输入密码",
+    "passwordHint": "至少 6 个字符",
+    "name": "姓名",
+    "namePlaceholder": "您的姓名",
+    "optional": "可选",
+    "login": "登录",
+    "register": "注册",
+    "logout": "登出",
+    "noAccount": "还没有账户？",
+    "haveAccount": "已有账户？",
+    "processing": "处理中...",
+    "demoNote": "这是演示认证系统。数据存储在内存中，服务器重启后会丢失。"
+  },
+  "nav": {
+    "aiImages": "AI 图像",
+    "aiHeadshots": "AI 头像",
+    "aiEditing": "AI 编辑",
+    "aiGame": "AI 游戏",
+    "aiWriting": "AI 写作",
+    "dndGenerator": "DnD 生成器",
+    "pricing": "定价",
+    "submenu": {
+      "artGenerator": "艺术生成器",
+      "artGeneratorPowerEditor": "艺术生成器 - 高级编辑器",
+      "aiCharacters": "AI 角色",
+      "aiLogos": "AI 徽标",
+      "aiStockPhotos": "AI 库存照片",
+      "aiBackgrounds": "AI 背景",
+      "aiAnime": "AI 动漫",
+      "generalHeadshot": "通用头像",
+      "corporateHeadshot": "企业头像",
+      "lunarNewYearHeadshot": "农历新年头像",
+      "avatar": "头像",
+      "cosplayHeadshot": "角色扮演头像",
+      "realEstateHeadshot": "房地产头像",
+      "medicalHeadshot": "医疗头像",
+      "xmasHeadshot": "圣诞头像",
+      "profilePictureEditor": "头像编辑器",
+      "photoUpscaler": "照片放大器",
+      "objectRemover": "物体移除器",
+      "backgroundRemover": "背景移除器",
+      "photoRestyler": "照片重样式器",
+      "photoColorizer": "照片着色器",
+      "photoRestorer": "照片修复器",
+      "faceEnhancer": "面部增强器",
+      "autoCrop": "自动裁剪",
+      "colorGenerator": "颜色生成器",
+      "aiGameTools": "AI 游戏工具",
+      "aiGameCharacters": "AI 游戏角色",
+      "aiGameBackground": "AI 游戏背景",
+      "aiGameCopywriter": "AI 游戏文案",
+      "aiGameLogo": "AI 游戏徽标",
+      "dndGenerator": "AI DnD 生成器",
+      "freeGameAssets": "免费游戏资源",
+      "contentBrainstorming": "内容头脑风暴",
+      "artNftIdea": "艺术与 NFT 创意",
+      "copywriting": "文案写作",
+      "songWriting": "歌曲创作",
+      "bookWriting": "书籍写作",
+      "professionalWriting": "专业写作",
+      "productWriting": "产品写作"
+    }
+  },
+  "home": {
+    "hero": {
+      "badge": "用 AI 激发创意",
+      "title": "使用",
+      "titleHighlight": "Hotpot AI",
+      "titleSuffix": "创建精美的图像、图形和内容",
+      "description": "使用 AI 图像生成器可视化想法，用 AI 头像重新想象自己，或用强大的 AI 照片工具自动化繁琐的编辑。模板帮助任何人在几分钟内设计专业图形。",
+      "startFree": "免费开始",
+      "noLoginRequired": "无需登录",
+      "viewTools": "查看 AI 工具",
+      "pricingNote": "设计免费或低至每张图形 $1。"
+    },
+    "categories": {
+      "aiImage": {
+        "title": "AI 图像",
+        "subtitle": "用 AI 激发创意",
+        "description": "将文本转换为艺术。使用 AI 生成徽标、库存照片、背景、动漫等。",
+        "items": {
+          "artGenerator": "艺术生成器",
+          "aiLogos": "AI 徽标",
+          "aiStockPhotos": "AI 库存照片",
+          "aiBackgrounds": "AI 背景",
+          "aiAnime": "AI 动漫"
+        }
+      },
+      "aiHeadshot": {
+        "title": "AI 头像",
+        "subtitle": "用 AI 重新想象自己",
+        "description": "为 LinkedIn、简历、社交媒体等创建任何风格的专业肖像。",
+        "items": {
+          "generalHeadshot": "通用头像",
+          "corporateHeadshot": "企业头像",
+          "avatarCosplay": "头像与角色扮演",
+          "realEstateHeadshot": "房地产头像",
+          "medicalHeadshot": "医疗头像"
+        }
+      },
+      "aiEditing": {
+        "title": "AI 编辑",
+        "subtitle": "用 AI 编辑照片",
+        "description": "一键放大、清理和增强照片。移除物体、修复面部等。",
+        "items": {
+          "photoUpscaler": "照片放大器",
+          "objectRemover": "物体移除器",
+          "backgroundRemover": "背景移除器",
+          "photoColorizer": "照片着色器",
+          "photoRestyler": "照片重样式器",
+          "photoRestorer": "照片修复器",
+          "faceEnhancer": "面部增强器"
+        }
+      },
+      "aiGame": {
+        "title": "AI 游戏",
+        "subtitle": "用 AI 创建游戏内容",
+        "description": "设计游戏角色、背景和资源。非常适合 DnD、手机游戏和原型。",
+        "items": {
+          "aiGameTools": "AI 游戏工具",
+          "aiGameCharacters": "AI 游戏角色",
+          "aiGameBackground": "AI 游戏背景",
+          "aiGameLogo": "AI 游戏徽标",
+          "aiDndGenerator": "AI DnD 生成器"
+        }
+      },
+      "aiWriting": {
+        "title": "AI 写作",
+        "subtitle": "用 AI 提升写作",
+        "description": "集思广益、润色文案，为博客、产品和书籍生成内容。",
+        "items": {
+          "contentBrainstorming": "内容集思广益",
+          "artNftIdea": "艺术与 NFT 创意",
+          "copywriting": "文案写作",
+          "songWriting": "歌曲创作",
+          "bookWriting": "书籍写作",
+          "professionalWriting": "专业写作",
+          "productWriting": "产品写作"
+        }
+      }
+    },
+    "pricing": {
+      "title": "随您扩展的简单定价",
+      "description": "免费创建，仅在导出高分辨率设计或商业资产时付费。",
+      "price": "$1",
+      "perGraphic": "每张高级图形",
+      "volumeDiscounts": "团队和工作室可享受批量折扣。"
+    }
+  },
+  "aiImages": {
+    "badge": "AI 图像",
+    "title": "您所有的",
+    "titleHighlight": "AI 图像工具",
+    "titleSuffix": "集中在一处",
+    "description": "使用 AI 艺术生成器可视化任何想法，创建徽标、背景和库存照片，或探索动漫风格。从简单文本开始，几秒钟内获得精美的视觉效果。",
+    "connectToReal": "连接到真实生成器",
+    "connectDescription": "上面的每张卡片都可以连接到专用页面或外部工具（例如，您自己的 AI 服务或第三方生成器）。目前，按钮是占位符。",
+    "tools": {
+      "artGenerator": {
+        "title": "艺术生成器",
+        "description": "使用 AI 将文本转换为艺术。探索从绘画风格到赛博朋克概念艺术的风格。"
+      },
+      "aiLogos": {
+        "title": "AI 徽标",
+        "description": "生成扁平、详细、嬉皮、黑白等风格的徽标创意。"
+      },
+      "aiStockPhotos": {
+        "title": "AI 库存照片",
+        "description": "无需拍摄即可创建符合品牌的库存照片。非常适合营销和产品拍摄。"
+      },
+      "aiBackgrounds": {
+        "title": "AI 背景",
+        "description": "在几秒钟内为游戏、应用程序和演示文稿设计生动的背景。"
+      },
+      "aiAnime": {
+        "title": "AI 动漫",
+        "description": "用动漫思考。将您的想法转化为风格化的动漫角色和场景。"
+      }
+    }
+  },
+  "dndGenerator": {
+    "badge": "AI DnD 生成器",
+    "title": "使用",
+    "titleHighlight": "AI 提示词",
+    "titleSuffix": "设计史诗级 DnD 场景",
+    "description": "选择您的世界、场景类型和艺术风格。我们构建一个丰富的提示词，您可以发送到您喜欢的图像模型（Stable Diffusion、DALL·E、Hotpot 等）。",
+    "sceneSettings": "场景设置",
+    "world": "世界",
+    "sceneType": "场景类型",
+    "artStyle": "艺术风格",
+    "mood": "氛围",
+    "extraDetails": "额外细节",
+    "extraDetailsHint": "描述角色、光照、相机角度、魔法效果或您想看到的任何其他内容。",
+    "promptPreview": "提示词预览",
+    "copyPasteHint": "复制并粘贴到您的图像生成器",
+    "historySamples": "历史记录和示例",
+    "historyEmpty": "复制提示词以将其保存在此处。您可以一键快速恢复之前的设置。",
+    "samplePrompts": "示例提示词",
+    "sample1": "史诗级 DnD 战斗，在暴风雨海面上方的浮岛上，绘画风格，戏剧性光照，4k",
+    "sample2": "舒适的酒馆内部，冒险者围坐在木桌旁，温暖的光照，详细的角色设计，动漫风格",
+    "sample3": "等距地牢地图，火炬照亮的走廊，古代符文，高对比度，游戏就绪资源",
+    "generateMock": "生成模拟图像（API）",
+    "generatedPreviews": "生成的预览（模拟）",
+    "generatedEmpty": "点击“生成模拟图像（API）”以创建预览卡片。这些是占位符，直到您连接真实的图像生成 API。",
+    "placeholderNote": "占位符预览 – 稍后连接真实图像 API。",
+    "worlds": {
+      "forgottenRealms": "被遗忘的国度",
+      "homebrewWorld": "自制世界",
+      "eberron": "艾伯伦",
+      "ravenloft": "鸦阁"
+    },
+    "sceneTypes": {
+      "dungeon": "地牢",
+      "tavern": "酒馆",
+      "cityStreet": "城市街道",
+      "forestClearing": "森林空地",
+      "battlefield": "战场"
+    },
+    "styles": {
+      "realistic": "写实",
+      "painterly": "绘画风格",
+      "pixelArt": "像素艺术",
+      "anime": "动漫",
+      "isometricMap": "等距地图"
+    },
+    "moods": {
+      "mysterious": "神秘",
+      "epic": "史诗",
+      "cozy": "舒适",
+      "dark": "黑暗",
+      "whimsical": "异想天开"
+    }
+  },
+  "footer": {
+    "copyright": "© {year} Hotpot（克隆演示）。保留所有权利。",
+    "disclaimer": "此项目是受 Hotpot.ai 启发的学习/演示克隆，使用 Next.js 和 Tailwind CSS 构建。请在任何商业部署之前，将所有图像和品牌资产替换为您拥有或有权限使用的内容。",
+    "about": "关于",
+    "jobs": "招聘",
+    "resources": "资源",
+    "gameTools": "AI 游戏工具",
+    "aiAvatars": "AI 头像",
+    "characterGenerator": "AI 角色生成器",
+    "freeGameAssets": "免费游戏资源",
+    "appMarketingPack": "应用营销包",
+    "templates": "模板",
+    "blog": "博客",
+    "allPosts": "所有文章"
+  }
+}
+
