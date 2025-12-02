@@ -35,6 +35,8 @@
     "noAccount": "还没有账户？",
     "haveAccount": "已有账户？",
     "processing": "处理中...",
+    "orContinueWith": "或使用",
+    "continueWithGoogle": "使用 Google 继续",
     "demoNote": "这是演示认证系统。数据存储在内存中，服务器重启后会丢失。"
   },
   "nav": {

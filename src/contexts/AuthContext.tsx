@@ -53,6 +53,37 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     }
   }, []);
 
+  // Listen for storage events (for cross-tab sync)
+  useEffect(() => {
+    const handleStorageChange = (e: StorageEvent) => {
+      if (e.key === "auth_token") {
+        if (e.newValue) {
+          // Token was added, refresh user
+          fetch("/api/auth/me", {
+            headers: {
+              Authorization: `Bearer ${e.newValue}`,
+            },
+          })
+            .then((res) => res.json())
+            .then((data) => {
+              if (data.user) {
+                setUser(data.user);
+              }
+            })
+            .catch(() => {
+              setUser(null);
+            });
+        } else {
+          // Token was removed, logout
+          setUser(null);
+        }
+      }
+    };
+
+    window.addEventListener("storage", handleStorageChange);
+    return () => window.removeEventListener("storage", handleStorageChange);
+  }, []);
+
   async function login(email: string, password: string) {
     try {
       const res = await fetch("/api/auth/login", {

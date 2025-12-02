@@ -35,6 +35,8 @@
     "noAccount": "Don't have an account?",
     "haveAccount": "Already have an account?",
     "processing": "Processing...",
+    "orContinueWith": "Or continue with",
+    "continueWithGoogle": "Continue with Google",
     "demoNote": "This is a demo authentication system. Data is stored in memory and will be lost on server restart."
   },
   "nav": {
