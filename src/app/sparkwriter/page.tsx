@@ -2,6 +2,7 @@
 
 import { ToolPageLayout } from "@/components/ToolPageLayout";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { AIWritingTool } from "@/components/AIWritingTool";
 
 export default function SparkwriterPage() {
   const { t } = useLanguage();
@@ -12,11 +13,35 @@ export default function SparkwriterPage() {
       description="Create compelling game copy with AI. Generate descriptions, dialogue, and marketing content for your games."
       badge="AI Game"
     >
-      <div className="rounded-3xl border border-slate-200 bg-white/80 p-6 shadow-sm shadow-slate-100 sm:p-8">
-        <p className="text-sm text-slate-600">
-          Sparkwriter functionality coming soon. Generate game copy, descriptions, and marketing content with AI.
-        </p>
-      </div>
+      <AIWritingTool
+        goalOptions={[
+          "Art Idea",
+          "Short Story",
+          "NFT Collection Idea",
+          "NFT Collection Description",
+          "Song Lyric",
+          "Song Idea",
+          "Writing Sample",
+          "Movie Idea",
+          "Book Idea",
+          "Album Summary",
+          "Graphic Idea",
+          "Tagline/Headline",
+          "Product Name",
+          "Product Summary",
+          "Product Description",
+          "Facebook Post",
+          "Instagram Post",
+        ]}
+        defaultGoal="Art Idea"
+        placeholder="Leave blank for random ideas, or enter a topic to guide suggestions"
+        tips={[
+          "Leave topic blank for creative random ideas",
+          "Enter a topic to focus the generation",
+          "Try different goals for varied content",
+          "Refine generated content to fit your needs",
+        ]}
+      />
     </ToolPageLayout>
   );
 }

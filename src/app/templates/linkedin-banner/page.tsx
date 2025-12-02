@@ -1,6 +1,7 @@
 "use client";
 
 import { ToolPageLayout } from "@/components/ToolPageLayout";
+import { TemplateEditor } from "@/components/TemplateEditor";
 
 export default function LinkedInBannerPage() {
   return (
@@ -10,11 +11,17 @@ export default function LinkedInBannerPage() {
       description="Design professional LinkedIn banners and covers with our templates."
       badge="Templates"
     >
-      <div className="rounded-3xl border border-slate-200 bg-white/80 p-6 shadow-sm shadow-slate-100 sm:p-8">
-        <p className="text-sm text-slate-600">
-          LinkedIn banner template editor coming soon.
-        </p>
-      </div>
+      <TemplateEditor
+        templateName="LinkedIn Banner"
+        dimensions={{ width: 1584, height: 396 }}
+        description="Design professional LinkedIn banners and covers with our templates. Perfect for business profiles."
+        tips={[
+          "Keep design professional",
+          "Include your brand elements",
+          "Use high-quality images",
+          "Keep text minimal",
+        ]}
+      />
     </ToolPageLayout>
   );
 }

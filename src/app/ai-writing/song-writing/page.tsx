@@ -2,6 +2,7 @@
 
 import { ToolPageLayout } from "@/components/ToolPageLayout";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { AIWritingTool } from "@/components/AIWritingTool";
 
 export default function SongWritingPage() {
   const { t } = useLanguage();
@@ -12,11 +13,25 @@ export default function SongWritingPage() {
       description="Write lyrics and compose songs with AI assistance. Get help with rhymes, melodies, and song structure."
       badge="AI Writing"
     >
-      <div className="rounded-3xl border border-slate-200 bg-white/80 p-6 shadow-sm shadow-slate-100 sm:p-8">
-        <p className="text-sm text-slate-600">
-          Song writing tool coming soon. Generate lyrics and get creative assistance for your songs.
-        </p>
-      </div>
+      <AIWritingTool
+        goalOptions={[
+          "Song Lyric",
+          "Song Idea",
+          "Chorus",
+          "Verse",
+          "Bridge",
+          "Hook",
+          "Album Summary",
+        ]}
+        defaultGoal="Song Lyric"
+        placeholder="Enter a theme, emotion, or story (e.g., 'love', 'heartbreak', 'adventure') or leave blank for random ideas..."
+        tips={[
+          "Specify genre (pop, rock, country, etc.)",
+          "Include emotional tone",
+          "Mention song structure preferences",
+          "Describe the story or message",
+        ]}
+      />
     </ToolPageLayout>
   );
 }

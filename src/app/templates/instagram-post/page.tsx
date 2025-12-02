@@ -1,6 +1,7 @@
 "use client";
 
 import { ToolPageLayout } from "@/components/ToolPageLayout";
+import { TemplateEditor } from "@/components/TemplateEditor";
 
 export default function InstagramPostPage() {
   return (
@@ -10,12 +11,17 @@ export default function InstagramPostPage() {
       description="Design beautiful Instagram posts with our easy-to-use templates. Perfect for social media marketing."
       badge="Templates"
     >
-      <div className="rounded-3xl border border-slate-200 bg-white/80 p-6 shadow-sm shadow-slate-100 sm:p-8">
-        <p className="text-sm text-slate-600">
-          Instagram post template editor coming soon. Create stunning posts for
-          your Instagram feed.
-        </p>
-      </div>
+      <TemplateEditor
+        templateName="Instagram Post"
+        dimensions={{ width: 1080, height: 1080 }}
+        description="Design beautiful Instagram posts with our easy-to-use templates. Perfect for social media marketing."
+        tips={[
+          "Use square format (1:1)",
+          "Keep text minimal and readable",
+          "Use vibrant colors",
+          "Include engaging visuals",
+        ]}
+      />
     </ToolPageLayout>
   );
 }

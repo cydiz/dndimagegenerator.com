@@ -2,6 +2,7 @@
 
 import { ToolPageLayout } from "@/components/ToolPageLayout";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { AIWritingTool } from "@/components/AIWritingTool";
 
 export default function ArtNftIdeaPage() {
   const { t } = useLanguage();
@@ -12,11 +13,24 @@ export default function ArtNftIdeaPage() {
       description="Generate creative ideas for art projects and NFT concepts. Get inspiration for your next creative work."
       badge="AI Writing"
     >
-      <div className="rounded-3xl border border-slate-200 bg-white/80 p-6 shadow-sm shadow-slate-100 sm:p-8">
-        <p className="text-sm text-slate-600">
-          Art & NFT idea generator coming soon. Generate creative concepts and descriptions for your art projects.
-        </p>
-      </div>
+      <AIWritingTool
+        goalOptions={[
+          "Art Idea",
+          "NFT Collection Idea",
+          "NFT Collection Description",
+          "Art Project Concept",
+          "Creative Brief",
+          "Art Style Description",
+        ]}
+        defaultGoal="Art Idea"
+        placeholder="Enter a theme, style, or concept (e.g., 'cyberpunk', 'nature', 'abstract') or leave blank for random ideas..."
+        tips={[
+          "Specify art style preferences",
+          "Include color palette ideas",
+          "Mention target audience",
+          "Describe mood or emotion",
+        ]}
+      />
     </ToolPageLayout>
   );
 }

@@ -1,6 +1,7 @@
 "use client";
 
 import { ToolPageLayout } from "@/components/ToolPageLayout";
+import { TemplateEditor } from "@/components/TemplateEditor";
 
 export default function YouTubeThumbnailPage() {
   return (
@@ -10,11 +11,17 @@ export default function YouTubeThumbnailPage() {
       description="Design eye-catching YouTube thumbnails with our templates. Increase your click-through rate."
       badge="Templates"
     >
-      <div className="rounded-3xl border border-slate-200 bg-white/80 p-6 shadow-sm shadow-slate-100 sm:p-8">
-        <p className="text-sm text-slate-600">
-          YouTube thumbnail template editor coming soon.
-        </p>
-      </div>
+      <TemplateEditor
+        templateName="YouTube Thumbnail"
+        dimensions={{ width: 1280, height: 720 }}
+        description="Design eye-catching YouTube thumbnails with our templates. Increase your click-through rate."
+        tips={[
+          "Use bold, readable text",
+          "Include faces or emotions",
+          "Use high contrast colors",
+          "Keep design simple and clear",
+        ]}
+      />
     </ToolPageLayout>
   );
 }

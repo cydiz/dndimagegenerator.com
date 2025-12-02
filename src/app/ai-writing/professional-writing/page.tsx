@@ -2,6 +2,7 @@
 
 import { ToolPageLayout } from "@/components/ToolPageLayout";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { AIWritingTool } from "@/components/AIWritingTool";
 
 export default function ProfessionalWritingPage() {
   const { t } = useLanguage();
@@ -12,11 +13,26 @@ export default function ProfessionalWritingPage() {
       description="Create professional documents, emails, and reports. Write clear, concise, and professional content for business."
       badge="AI Writing"
     >
-      <div className="rounded-3xl border border-slate-200 bg-white/80 p-6 shadow-sm shadow-slate-100 sm:p-8">
-        <p className="text-sm text-slate-600">
-          Professional writing tool coming soon. Generate business documents, emails, and reports with AI.
-        </p>
-      </div>
+      <AIWritingTool
+        goalOptions={[
+          "Business Email",
+          "Report Summary",
+          "Meeting Notes",
+          "Proposal",
+          "Cover Letter",
+          "Resume Summary",
+          "Professional Letter",
+          "Executive Summary",
+        ]}
+        defaultGoal="Business Email"
+        placeholder="Enter purpose, recipient, or key points (e.g., 'follow-up meeting', 'project update', 'introduction')..."
+        tips={[
+          "Specify document type and purpose",
+          "Include recipient information",
+          "Mention key points to cover",
+          "Indicate desired tone (formal, friendly, etc.)",
+        ]}
+      />
     </ToolPageLayout>
   );
 }

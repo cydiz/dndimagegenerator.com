@@ -1,6 +1,7 @@
 "use client";
 
 import { ToolPageLayout } from "@/components/ToolPageLayout";
+import { TemplateEditor } from "@/components/TemplateEditor";
 
 export default function InstagramStoryPage() {
   return (
@@ -10,11 +11,17 @@ export default function InstagramStoryPage() {
       description="Design engaging Instagram stories with our templates. Perfect for daily content and promotions."
       badge="Templates"
     >
-      <div className="rounded-3xl border border-slate-200 bg-white/80 p-6 shadow-sm shadow-slate-100 sm:p-8">
-        <p className="text-sm text-slate-600">
-          Instagram story template editor coming soon.
-        </p>
-      </div>
+      <TemplateEditor
+        templateName="Instagram Story"
+        dimensions={{ width: 1080, height: 1920 }}
+        description="Design engaging Instagram stories with our templates. Perfect for daily content and promotions."
+        tips={[
+          "Use vertical format (9:16)",
+          "Keep text in safe area",
+          "Use bold, readable fonts",
+          "Create eye-catching visuals",
+        ]}
+      />
     </ToolPageLayout>
   );
 }

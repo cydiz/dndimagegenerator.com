@@ -1,6 +1,7 @@
 "use client";
 
 import { ToolPageLayout } from "@/components/ToolPageLayout";
+import { ImageUploadTool } from "@/components/ImageUploadTool";
 
 export default function IosAppGraphicsPage() {
   return (
@@ -10,11 +11,24 @@ export default function IosAppGraphicsPage() {
       description="Generate screenshots and graphics for iOS apps. Perfect for App Store listings."
       badge="App Content"
     >
-      <div className="rounded-3xl border border-slate-200 bg-white/80 p-6 shadow-sm shadow-slate-100 sm:p-8">
-        <p className="text-sm text-slate-600">
-          iOS app graphics tools coming soon.
-        </p>
-      </div>
+      <ImageUploadTool
+        title="Upload your app screenshots"
+        description="Generate professional iOS app graphics for App Store. Create screenshots, icons, and promotional materials."
+        processingText="Generating iOS graphics..."
+        features={[
+          "App Store formats",
+          "iPhone and iPad sizes",
+          "App icon generation",
+          "App preview videos",
+          "Promotional graphics",
+        ]}
+        tips={[
+          "Upload high-quality app screenshots",
+          "Include iPhone and iPad sizes",
+          "Show key app features",
+          "Use consistent branding",
+        ]}
+      />
     </ToolPageLayout>
   );
 }

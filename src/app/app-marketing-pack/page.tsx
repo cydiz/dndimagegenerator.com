@@ -1,6 +1,7 @@
 "use client";
 
 import { ToolPageLayout } from "@/components/ToolPageLayout";
+import { ImageUploadTool } from "@/components/ImageUploadTool";
 
 export default function AppMarketingPackPage() {
   return (
@@ -10,12 +11,25 @@ export default function AppMarketingPackPage() {
       description="Generate app store screenshots, icons, and marketing materials for iOS and Android apps."
       badge="App Content"
     >
-      <div className="rounded-3xl border border-slate-200 bg-white/80 p-6 shadow-sm shadow-slate-100 sm:p-8">
-        <p className="text-sm text-slate-600">
-          App marketing pack tools coming soon. Create screenshots and graphics
-          for your app store listings.
-        </p>
-      </div>
+      <ImageUploadTool
+        title="Upload your app assets"
+        description="Generate a complete marketing pack for your app including screenshots, icons, banners, and promotional materials for both iOS and Android."
+        processingText="Generating marketing pack..."
+        features={[
+          "Complete app store assets",
+          "iOS and Android formats",
+          "Multiple device sizes",
+          "Icons and screenshots",
+          "Promotional banners",
+          "Marketing materials",
+        ]}
+        tips={[
+          "Upload high-quality app screenshots",
+          "Include branding elements",
+          "Show key app features",
+          "Use consistent design style",
+        ]}
+      />
     </ToolPageLayout>
   );
 }

@@ -2,6 +2,7 @@
 
 import { ToolPageLayout } from "@/components/ToolPageLayout";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { ImageUploadTool } from "@/components/ImageUploadTool";
 
 export default function AiCosplayPage() {
   const { t } = useLanguage();
@@ -12,11 +13,24 @@ export default function AiCosplayPage() {
       description="Transform yourself into your favorite characters with AI cosplay headshots. Perfect for conventions and creative projects."
       badge="AI Headshot"
     >
-      <div className="rounded-3xl border border-slate-200 bg-white/80 p-6 shadow-sm shadow-slate-100 sm:p-8">
-        <p className="text-sm text-slate-600">
-          Cosplay headshot generator coming soon. Upload your photos to transform into any character.
-        </p>
-      </div>
+      <ImageUploadTool
+        title="Upload your photo"
+        description="Transform yourself into your favorite characters with AI cosplay headshots. Perfect for conventions and creative projects."
+        processingText="Generating cosplay headshot..."
+        features={[
+          "Transform into any character",
+          "Anime, manga, and game styles",
+          "Professional cosplay quality",
+          "Multiple character options",
+          "Customizable costumes and props",
+        ]}
+        tips={[
+          "Upload clear face photos",
+          "Specify character name for best results",
+          "Good lighting enhances quality",
+          "Multiple angles improve accuracy",
+        ]}
+      />
     </ToolPageLayout>
   );
 }

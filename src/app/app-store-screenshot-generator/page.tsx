@@ -1,6 +1,7 @@
 "use client";
 
 import { ToolPageLayout } from "@/components/ToolPageLayout";
+import { ImageUploadTool } from "@/components/ImageUploadTool";
 
 export default function AppStoreScreenshotGeneratorPage() {
   return (
@@ -10,11 +11,26 @@ export default function AppStoreScreenshotGeneratorPage() {
       description="Generate professional app store screenshots for iOS and Android. Perfect for app marketing."
       badge="App Content"
     >
-      <div className="rounded-3xl border border-slate-200 bg-white/80 p-6 shadow-sm shadow-slate-100 sm:p-8">
-        <p className="text-sm text-slate-600">
-          App store screenshot generator coming soon.
-        </p>
-      </div>
+      <ImageUploadTool
+        title="Upload your app screenshots"
+        description="Generate professional app store screenshots optimized for iOS App Store and Google Play Store. Create eye-catching screenshots that convert."
+        processingText="Generating app store screenshots..."
+        features={[
+          "App Store optimized formats",
+          "Google Play formats",
+          "Multiple device sizes",
+          "Professional templates",
+          "Text overlay options",
+          "Branding integration",
+        ]}
+        tips={[
+          "Upload high-resolution screenshots",
+          "Show key app features clearly",
+          "Use consistent branding",
+          "Include compelling text overlays",
+          "Test different layouts",
+        ]}
+      />
     </ToolPageLayout>
   );
 }

@@ -2,6 +2,7 @@
 
 import { ToolPageLayout } from "@/components/ToolPageLayout";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { AIWritingTool } from "@/components/AIWritingTool";
 
 export default function BookWritingPage() {
   const { t } = useLanguage();
@@ -12,11 +13,25 @@ export default function BookWritingPage() {
       description="Assist with book writing, chapters, and storytelling. Get help with plot development, character creation, and narrative structure."
       badge="AI Writing"
     >
-      <div className="rounded-3xl border border-slate-200 bg-white/80 p-6 shadow-sm shadow-slate-100 sm:p-8">
-        <p className="text-sm text-slate-600">
-          Book writing assistant coming soon. Get help with chapters, plot development, and storytelling.
-        </p>
-      </div>
+      <AIWritingTool
+        goalOptions={[
+          "Book Idea",
+          "Short Story",
+          "Chapter Outline",
+          "Character Description",
+          "Plot Summary",
+          "Writing Sample",
+          "Scene Description",
+        ]}
+        defaultGoal="Book Idea"
+        placeholder="Enter genre, theme, or story concept (e.g., 'sci-fi thriller', 'romance', 'mystery') or leave blank for random ideas..."
+        tips={[
+          "Specify genre and target audience",
+          "Include key themes or messages",
+          "Mention preferred writing style",
+          "Describe main characters or setting",
+        ]}
+      />
     </ToolPageLayout>
   );
 }
